@@ -3,10 +3,7 @@ module DFlipFlop(D, clk, reset, init, Q);
     output reg Q;
 
     always @ (posedge clk or posedge reset)
-        if(reset) begin
-            if(init) Q <= 1;
-            else Q <= 0;
-            end
+        if(reset) Q <= init
         else Q <= D;
 endmodule
 
