@@ -1,0 +1,223 @@
+$date
+	Tue May 18 16:49:24 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_sequence $end
+$var wire 1 ! Yout $end
+$var reg 1 " Xin $end
+$var reg 1 # clk $end
+$var reg 1 $ reset $end
+$scope module generator $end
+$var wire 1 " Xin $end
+$var wire 1 ! Yout $end
+$var wire 1 # clk $end
+$var wire 1 $ reset $end
+$var wire 3 % Q [2:0] $end
+$var wire 3 & D [2:0] $end
+$scope module d0 $end
+$var wire 1 ' D $end
+$var wire 1 # clk $end
+$var wire 1 $ reset $end
+$var reg 1 ( Q $end
+$upscope $end
+$scope module d1 $end
+$var wire 1 ) D $end
+$var wire 1 # clk $end
+$var wire 1 $ reset $end
+$var reg 1 * Q $end
+$upscope $end
+$scope module d2 $end
+$var wire 1 + D $end
+$var wire 1 # clk $end
+$var wire 1 $ reset $end
+$var reg 1 , Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0,
+0+
+0*
+0)
+0(
+1'
+b1 &
+b0 %
+1$
+0#
+1"
+0!
+$end
+#10
+0$
+1#
+#20
+0#
+#30
+0'
+1)
+b10 &
+b1 %
+1(
+1#
+#40
+0#
+0"
+#50
+1'
+b11 &
+1*
+b10 %
+0(
+1#
+#60
+0#
+#70
+0'
+0)
+1+
+1!
+b100 &
+b11 %
+1(
+1#
+#80
+0#
+1"
+#90
+1'
+b101 &
+0!
+1,
+0*
+b100 %
+0(
+1#
+#100
+0#
+#110
+0'
+0+
+b0 &
+1!
+b101 %
+1(
+1#
+#120
+0#
+0"
+#130
+0!
+0,
+b0 %
+0(
+1#
+#140
+0#
+#150
+1#
+#160
+1'
+b1 &
+0#
+1"
+#170
+0'
+1)
+b10 &
+b1 %
+1(
+1#
+#180
+0#
+#190
+1'
+b11 &
+0(
+b10 %
+1*
+1#
+#200
+0#
+0"
+#210
+0'
+0)
+1+
+1!
+b100 &
+b11 %
+1(
+1#
+#220
+0#
+#230
+1'
+1+
+0!
+b101 &
+0(
+0*
+b100 %
+1,
+1#
+#240
+0#
+1"
+#250
+0'
+0+
+b0 &
+1!
+b101 %
+1(
+1#
+#260
+0#
+#270
+1'
+b1 &
+0!
+0(
+b0 %
+0,
+1#
+#280
+0'
+b0 &
+0#
+0"
+#290
+1#
+#300
+0#
+#310
+1#
+#320
+1'
+b1 &
+0#
+1"
+#330
+0'
+1)
+b10 &
+b1 %
+1(
+1#
+#340
+0#
+#350
+1'
+b11 &
+0(
+b10 %
+1*
+1#
